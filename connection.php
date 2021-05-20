@@ -16,8 +16,7 @@ function MySql_Close($link){
     mysqli_close($link) or die(mysqli_error());
 }
 
-function MySql_Execute($query){
-    $link = MySql_connect();
+function MySql_Execute($link, $query){
 
     $result = mysqli_query($link, $query) or die(mysqli_error());
 
