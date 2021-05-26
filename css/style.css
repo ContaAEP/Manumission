@@ -1,0 +1,126 @@
+body {
+    background-color: #F5F5EF;
+    width: 915px;
+    /* background-color: blueviolet; */
+}
+
+header{
+    text-align: center;
+}
+
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+#logo_project{
+    margin-top: -40px;
+    margin-left: 250px;
+    display: inline;
+    width: 500px;
+    height: 338px;
+    float: left;
+}
+
+#div_post{
+    position: absolute;
+    margin-top: -60px;
+    left: 980px;
+    display: inline;
+    background-color: #E1E1DE;
+    width: 500px;
+    height: 250px;
+    float: right;
+    border-radius: 41px;
+    text-align: left;
+}
+
+#msg1 {
+    color: #7E7E7E;
+    font-family: Rosario;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-top: 55px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#msg2{
+    color: #7E7E7E;
+    font-family: Rosario;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+#inp_cidade{
+    margin-left: 40px;
+    height: 30px;
+    width: 350px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#inp_enviar{
+    font-family: Rosario;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    color: #FFFFFF;;
+    margin-top: 10px;
+    margin-left: 125px;
+    width: 190px;
+    height: 40px;
+    background: rgba(126, 126, 126, 0.46);
+    border-radius: 18px;
+}
+
+#img_central{
+    position: absolute;
+    width: 560px;
+    height: 450px;
+    left: 0px;
+    top: 250px;
+}
+
+#msg_central{
+    position: absolute;
+    left: 560px;
+    height: 450px;
+    width: 865px;
+    background-color: #2992C4;
+    top: 250px;
+}
+
+h3{
+    position: absolute;
+    top: 700px;
+    left: 552px;
+    font-family: Rosario;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+

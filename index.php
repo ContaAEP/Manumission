@@ -1,16 +1,6 @@
 <?php
 
-include "connection.php";
+$template = file_get_contents('C:\xampp\htdocs\Manumission\html\index.html');
 
-$link = MySql_Connect();
+echo $template;
 
-$query = "Select * from teste1";
-
-$datas = MySql_Read($link, $query);
-
-foreach($datas as $data){
-    echo "cod: ". $data['cod']. " | Nome: ". $data['nome'] .'<br>';
-    echo "--------------------------------------------<br>";
-}
-
-mysqli_close($link);
