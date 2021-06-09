@@ -4,4 +4,3 @@ $template = file_get_contents('C:\xampp\htdocs\Manumission\html\index.html');
 
 echo $template;
 
-//header("location: /Manumission/html/index.html");

@@ -3,7 +3,7 @@
 
 function MySql_Connect(){
     $host = "localhost";
-    $db   = "teste";
+    $db   = "manumission";
     $user = "root";
     $pass = "";
 

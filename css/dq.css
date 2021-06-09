@@ -1,0 +1,111 @@
+.body{
+    background: #F5F5EF;    
+}
+
+.container-fluid{
+    background: #F5F5EF;
+
+}
+
+.logo img{
+    max-width: 200px;
+}
+
+.div_title{
+    background: #ADE2FF;
+    /* min-width: 1400px; */
+    float: left;
+}
+
+.div_title p{
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.div_subtitle{
+    background: rgba(81, 239, 55, 0.71);
+    border-radius: 25px;
+}
+
+.div_subtitle p{
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.main img{
+    /* max-height: 400px; */
+    width: 80%;
+    min-width: 350px;
+    min-height: 200px;
+    border-radius: 20px;
+}
+
+.div_subtitle2{
+    background: rgba(81, 239, 55, 0.71);
+    border-radius: 25px;
+}
+
+.div_subtitle2 p{
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.div_opcoes{
+    background-color: #5CF6AC;
+    border-radius: 40px;
+}
+
+.div_opcoes p{
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.div_subtitle3{
+    background: rgba(81, 239, 55, 0.71);
+    border-radius: 25px;
+}
+
+.div_subtitle3 p{
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.buttons div{
+    background: #61F8AF;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.buttons a{
+    font-family: Roboto;
+    font-style: italic;
+    /* font-weight: 300; */
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.rodape h3{
+    font: Roboto;
+    font-size: 12px;
+    font-style: italic;
+}
