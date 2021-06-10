@@ -1,12 +1,9 @@
 <?php
 
-$app->get('/cowsay', function() use($app) {
-    $app['monolog']->addDebug('cowsay');
-    return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
-  });
+require('vendor/autoload.php');
 
-// $template = file_get_contents("index.html");
+$template = file_get_contents("/html/index.html");
 
-// echo $template;
+echo $template;
 
 
