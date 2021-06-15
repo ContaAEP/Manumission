@@ -6,6 +6,7 @@ include "connection.php";
 // var_dump($_POST);
 // echo '</pre>';
 
+
 $link = MySql_Connect();
 
 $cidade = $_POST["cidade"];
