@@ -2,17 +2,12 @@
 
 include "connection.php";
 
-// echo '<pre>';
-// var_dump($_POST);
-// echo '</pre>';
-
-
 $link = MySql_Connect();
 
 $cidade = $_POST["cidade"];
 $date   = date('Y-m-d');
 
-if (!empty($cidade)){
+if (!empty(trim($cidade))){
     $cQuery = "INSERT INTO pessoa (cidade, dt_digit)
                VALUES ('$cidade', '$date')";
 
@@ -20,8 +15,8 @@ if (!empty($cidade)){
 
     header("location: /Manumission/html/alcoolicos-anonimos.html");
 }else{
+       
     header("location: /Manumission/index.php");
-    alert("Por favor, digite a cidade.");
 }
 
 mysqli_close($link);

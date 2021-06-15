@@ -1,6 +1,5 @@
 .body {
     background-color: #F5F5EF;
-
 }
 
 .barra-superior{
@@ -41,7 +40,6 @@
     font-size: 24px;
     font-family: Roboto;
     font-weight: normal;
-    text-align: center;
 }
 
 .barra-superior input#inp_enviar{
@@ -73,100 +71,6 @@
     font-style: italic;
 }
 
-/*
-footer{
-    color: black;
-    text-align: center;
-    font-style: italic;
-}
-
-#logo_project{
-    margin-top: -15px;
-    margin-left: 250px;
-    display: inline;
-    width: 300px;
-    height: 218px;
-    float: left;
-}
-
-#div_post{
-    position: absolute;
-    margin-top: -60px;
-    left: 980px;
-    display: inline;
-    background-color: #E1E1DE;
-    width: 500px;
-    height: 250px;
-    float: right;
-    border-radius: 41px;
-    text-align: left;
-}
-
-#msg1 {
-    
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    margin-top: 55px;
-    margin-left: 40px;
-    text-align: center;
-}
-
-#msg2{
-    color: #7E7E7E;
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    margin-top: 10px;
-    margin-left: 40px;
-    text-align: center;
-    font-size: 24px;
-
-}
-
-#inp_cidade{
-    
-}
-
-#inp_enviar{
-    
-}
-
-#img_central{
-    position: absolute;
-    width: 560px;
-    height: 450px;
-    left: 0px;
-    top: 250px;
-}
-
-#msg_central{
-    position: absolute;
-    left: 560px;
-    height: 450px;
-    width: 865px;
-    background-color: #2992C4;
-    top: 250px;
-}
-
-h3{
-    position: absolute;
-    top: 700px;
-    left: 552px;
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 24px;
-    display: flex;
-    align-items: flex-end;
-    color: rgba(0, 0, 0, 0.7);
-}
-*/
 
 
 
